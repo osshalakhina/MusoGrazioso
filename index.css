@@ -1,0 +1,226 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px 50px;
+}
+
+.main {
+  color: #c98a1b;
+  font-weight: 300;
+}
+
+p {
+  color: #3d2804;
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+ul {
+  font-weight: 800;
+  color: #c98a1b;
+  margin: 20px;
+}
+
+li {
+  margin-top: 10px;
+  color: #3d2804;
+  font-weight: 300;
+}
+
+.logo {
+  width: 250px;
+}
+
+.site {
+  width: 800px;
+  border-radius: 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+}
+
+.mocup {
+  width: 400px;
+}
+
+.images {
+  width: 130px;
+  margin: 0 15px;
+}
+
+.image {
+  width: 400px;
+  border-radius: 10px;
+  border: 0.75px solid #0000001f;
+  box-shadow: 10px 10px 10px #0000001f;
+  margin: 0 10px;
+}
+
+.illustration {
+  width: 300px;
+}
+
+.sculpture {
+  width: 400px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    margin: 30px 20px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .site {
+    width: 650px;
+  }
+
+  .images {
+    width: 100px;
+    margin: 0 15px;
+  }
+
+  .image {
+    width: 300px;
+  }
+
+  .illustration {
+    width: 220px;
+  }
+
+  .sculpture {
+    width: 290px;
+  }
+}
+
+@media only screen and (max-width: 733px) {
+  body {
+    margin: 30px 20px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .site {
+    width: 400px;
+  }
+
+  .images {
+    width: 70px;
+    margin: 0 15px;
+  }
+
+  .image {
+    width: 220px;
+    margin: 0 5px;
+  }
+
+  .illustration {
+    width: 170px;
+  }
+
+  .sculpture {
+    width: 220px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  body {
+    margin: 15px 10px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .site {
+    width: 350px;
+  }
+
+  .images {
+    width: 60px;
+    margin: 0;
+  }
+
+  .image {
+    width: 150px;
+  }
+
+  .illustration {
+    width: 110px;
+    margin: 0;
+  }
+
+  .sculpture {
+    width: 150px;
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 10px 0px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 9px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .site {
+    width: 320px;
+  }
+
+  .images {
+    width: 55px;
+    margin: 0;
+  }
+
+  .image {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+  }
+
+  .top {
+    margin-top: 10px;
+  }
+
+  .illustration {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin: 0;
+  }
+
+  .sculpture {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 10px 0;
+  }
+}
