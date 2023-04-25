@@ -10,11 +10,13 @@ body {
 .main {
   color: #c98a1b;
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 p {
   color: #3d2804;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-weight: 800;
 }
 
@@ -116,6 +118,10 @@ li {
     width: 150px;
   }
 
+  p {
+    font-size: 11px;
+  }
+
   .site {
     width: 400px;
   }
@@ -146,7 +152,12 @@ li {
 
   p {
     margin-top: 10px;
-    font-size: 10px;
+    margin-bottom: 10px;
+    font-size: 9px;
+  }
+
+  .top {
+    margin-top: 10px;
   }
 
   .logo {
@@ -154,26 +165,32 @@ li {
   }
 
   .site {
-    width: 350px;
+    width: 370px;
   }
 
   .images {
-    width: 60px;
+    width: 68px;
     margin: 0;
   }
 
   .image {
-    width: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
   }
 
   .illustration {
-    width: 110px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
     margin: 0;
   }
 
   .sculpture {
-    width: 150px;
-    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin: 10px 0;
   }
 }
 
@@ -220,7 +237,7 @@ li {
   .sculpture {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 270px;
     margin: 10px 0;
   }
 }
