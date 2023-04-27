@@ -78,6 +78,17 @@ li {
   border-radius: 10px;
 }
 
+.handmade {
+  height: 585px;
+  border-radius: 10px;
+}
+
+.presentation {
+  height: 585px;
+  width: 820px;
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 1024px) {
   body {
     margin: 30px 20px;
@@ -106,6 +117,16 @@ li {
 
   .sculpture {
     width: 290px;
+  }
+
+  .handmade {
+    height: 430px;
+  }
+
+  .presentation {
+    height: 430px;
+    width: 620px;
+    border-radius: 10px;
   }
 }
 
@@ -142,6 +163,16 @@ li {
 
   .sculpture {
     width: 220px;
+  }
+
+  .handmade {
+    height: 330px;
+  }
+
+  .presentation {
+    height: 330px;
+    width: 450px;
+    border-radius: 10px;
   }
 }
 
@@ -192,6 +223,16 @@ li {
     width: 330px;
     margin: 10px 0;
   }
+
+  .handmade {
+    height: 230px;
+  }
+
+  .presentation {
+    height: 230px;
+    width: 340px;
+    border-radius: 10px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -239,5 +280,15 @@ li {
     flex-direction: column;
     width: 270px;
     margin: 10px 0;
+  }
+
+  .handmade {
+    height: 190px;
+  }
+
+  .presentation {
+    height: 190px;
+    width: 270px;
+    border-radius: 10px;
   }
 }
