@@ -1,6 +1,6 @@
 # MusoGrazioso
 
-Web site for Chinese Crested kennel, illustrations and some another works
+Web site for Chinese Crested kennel, illustrations and some another works.
 
 # Link on site:
 
